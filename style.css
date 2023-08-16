@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.btn-outline-success {
+    border-color: silver;
+}
+
+#h11 {
+    position: absolute;
+    bottom: 0;
+}
+
+#h12 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.carousel-item {
+    height: 30rem;
+    background: black;
+}
+
+.carousel img {
+    position: absolute;
+    object-fit: contain;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#para {
+    position: relative;
+    font-style: italic;
+    font-size: large;
+    text-align: justify;
+    width: 35%;
+    display: inline-block;
+}
+
+#butt {
+    background-color: dimgray;
+    color: white;
+}
+
+#jumbo {
+    margin-top: 100px;
+    border-top: 30px;
+    padding-left: 20px;
+    border: 1px solid cadetblue;
+}
+
+#bread {
+    font-size: 18px;
+    margin-top: 2vh;
+    margin-left: 20vh;
+    position: absolute;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: lightseagreen;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: violet;
+}
