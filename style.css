@@ -1,6 +1,9 @@
 body {
     background-color: black;
-    color: whitesmoke;
+    color: white;
+    padding-top: 0px;
+    font-family: 'Trispace', sans-serif;
+
 }
 
 .btn-outline-success {
@@ -61,12 +64,17 @@ body {
     position: absolute;
 }
 
+.breadcrumb {
+    margin-left: 10px;
+    overflow: hidden;
+}
+
 a:link {
     color: red;
 }
 
 a:visited {
-    color: lightseagreen;
+    color: whitesmoke;
 }
 
 a:hover {
@@ -75,4 +83,52 @@ a:hover {
 
 a:active {
     color: violet;
+}
+
+#lamb1 {
+    text-align: left;
+    float: left;
+    height: 500px;
+    width: 600px;
+    margin-left: 0%;
+    display: flex;
+    overflow: inherit;
+}
+
+#h19 {
+    margin: -56px 0px 2% 30px;
+    margin-bottom: 0px;
+    margin-top: -180px;
+    color: black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: Trispace, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+#underh19 {
+    color: grey;
+    margin-left: 6%;
+    margin-right: 27px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+#butt1 {
+    margin-left: 6%;
+}
+
+#butt1:hover {
+    color: red;
+}
+
+#butt2 {
+    margin-left: 6%;
+}
+
+#butt2:hover {
+    background-color: black;
+    color: red;
 }
