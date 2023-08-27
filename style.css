@@ -36,7 +36,10 @@ body {
 }
 
 #lamb1{
-    
-    width: 40vw;
-    margin-right: 1vw;
+    width: 45vw;
+    margin-left: -4vw;
+}
+
+#logo{
+    height: 10vh;
 }
