@@ -1,134 +1,42 @@
 body {
-    background-color: black;
-    color: white;
-    padding-top: 0px;
-    font-family: 'Trispace', sans-serif;
-
+  background-color: whitesmoke;
+  color: black;
+  font-family: "Playfair Display", serif;
 }
 
-.btn-outline-success {
-    border-color: silver;
+#navbar{
+    margin: 2%;
+    border-radius: 5px;
+    padding: 2%;
 }
 
-#h11 {
-    position: absolute;
-    bottom: 0;
+#navbarSupportedContent{
+    justify-content: space-between;
 }
 
-#h12 {
-    color: whitesmoke;
-    text-align: center;
+.navbar-brand{
+    margin-right: 3rem;
+    font-size: 1.40rem;
+    font-weight: 800;
 }
 
-.carousel-item {
-    height: 30rem;
-    background: black;
+#firstplaceholder{
+    align-items: start;
+    margin: 3%;
+    display: inline-flex;
 }
 
-.carousel img {
-    position: absolute;
-    object-fit: contain;
+#h11{
+    font-size: 5vw;
 }
 
-.container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-#para {
-    position: relative;
-    font-style: italic;
-    font-size: large;
-    text-align: justify;
-    width: 35%;
-    display: inline-block;
-}
-
-#butt {
-    background-color: dimgray;
-    color: white;
-}
-
-#jumbo {
-    margin-top: 100px;
-    border-top: 30px;
-    padding-left: 20px;
-    border: 1px solid cadetblue;
-}
-
-#bread {
-    font-size: 18px;
-    margin-top: 2vh;
-    margin-left: 20vh;
-    position: absolute;
-}
-
-.breadcrumb {
-    margin-left: 10px;
-    overflow: hidden;
-}
-
-a:link {
-    color: red;
-}
-
-a:visited {
-    color: whitesmoke;
-}
-
-a:hover {
-    color: yellow;
-}
-
-a:active {
-    color: violet;
-}
-
-#lamb1 {
-    text-align: left;
-    float: left;
-    height: 500px;
-    width: 600px;
-    margin-left: 0%;
-    display: flex;
-    overflow: inherit;
-}
-
-#h19 {
-    margin: -56px 0px 2% 30px;
-    margin-bottom: 0px;
-    margin-top: -180px;
-    color: black;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    font-family: Trispace, sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-}
-
-
-#underh19 {
+#underh11{
     color: grey;
-    margin-left: 6%;
-    margin-right: 27px;
-    font-size: 13px;
     text-align: justify;
 }
 
-#butt1 {
-    margin-left: 6%;
-}
-
-#butt1:hover {
-    color: red;
-}
-
-#butt2 {
-    margin-left: 6%;
-}
-
-#butt2:hover {
-    background-color: black;
-    color: red;
+#lamb1{
+    
+    width: 40vw;
+    margin-right: 1vw;
 }
