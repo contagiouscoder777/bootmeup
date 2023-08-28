@@ -4,44 +4,78 @@ body {
   font-family: "Playfair Display", serif;
 }
 
-#navbar{
-    margin: 2%;
-    border-radius: 5px;
-    padding: 2%;
+#navbar {
+  margin: 2%;
+  border-radius: 5px;
+  padding: 2%;
 }
 
-#navbarSupportedContent{
-    justify-content: space-between;
+#navbarSupportedContent {
+  justify-content: space-between;
 }
 
-.navbar-brand{
-    margin-right: 3rem;
-    font-size: 1.40rem;
-    font-weight: 800;
+.navbar-brand {
+  margin-right: 3rem;
+  font-size: 1.4rem;
+  font-weight: 800;
 }
 
-#firstplaceholder{
-    align-items: start;
-    margin: 3%;
-    display: inline-flex;
+#firstplaceholder {
+  align-items: start;
+  margin: 3%;
+  display: inline-flex;
+  margin-top: 1px;
 }
 
-#h11{
-    font-size: 5vw;
+#h11 {
+  font-size: 5vw;
 }
 
-#underh11{
-    color: grey;
-    text-align: justify;
+#underh11 {
+  color: grey;
+  text-align: justify;
 }
 
-#lamb1{
-    width: 45vw;
-    margin-left: -4vw;
+#lamb1 {
+  width: 45vw;
+  margin-left: -4vw;
 }
 
-#logo{
-    margin-top: 1%;
-    padding-right: 4%;
-    height: 8vh;
+#logo {
+  margin-top: 1%;
+  padding-right: 4%;
+  height: 8vh;
+}
+
+#firstbuttons {
+  display: flex;
+  gap: 2vw;
+}
+
+#our-services {
+  background-color: black;
+  color: aliceblue;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#contain-services {
+  background-color: whitesmoke;
+  height: 2vh;
+  width: 10vw;
+}
+
+#rowofcontainservices {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-body {
+  padding: 14%;
+  height: 30vh;
+  text-align: center;
+}
+
+#icon1 {
+  font-size: 2rem;
 }

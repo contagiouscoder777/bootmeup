@@ -13,6 +13,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="style.css">
   <title>CARTOPIA</title>
 </head>
@@ -49,33 +51,128 @@
       </form>
     </div>
   </nav>
-  <div id="firstplaceholder" class="container">
-    <div class="col-7">
-      <div class="row">
-        <h1 id="h11">Now It's Too Easy <br />For You To Rent A Car. <br /></h1>
+
+  <section>
+    <div id="firstplaceholder" class="container">
+      <div class="col-7">
+        <div class="row">
+          <h1 id="h11">Now It's Too Easy <br />For You To Rent A Car. <br /></h1>
+        </div>
+        <div class="row">
+          <h5 id="underh19">
+            We are your one-stop shop complete auto care for every make and model
+            of vehicle.
+            You get the best experiences and the best services with
+            us.
+            <br>
+          </h5>
+        </div>
+        <div class="row">
+          <img id="logo" src="images/laamborghini logo.png" alt="">
+          <img id="logo" src="images/rolls-royce-logo-black-and-white.png" alt="">
+          <img id="logo" src="images/bmwlogo.png" alt="">
+          <img id="logo" src="images/porsche-logo.png" alt="">
+          <img id="logo" src="images/R.png" alt="">
+        </div>
+        <br>
+        <div id="firstbuttons" class="row"><button type="button" class="btn btn-dark">BOOK A CAR</button>
+          <button type="button" class="btn btn-outline-dark">SEE ALL CARS</button>
+        </div>
+        <br>
+
       </div>
-      <div class="row">
-        <h4 id="underh19">
-          We are your one-stop shop complete auto care for every make and model
-          of vehicle. 
-          You get the best experiences and the best services with
-          us.
+      <div class="col col-5">
+        <img id="lamb1" src="images/lamb1.png" alt="">
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div id="our-services" class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-0">
           <br>
-        </h4>
+          <div class="row justify-content-center">
+            <h1 style="font-weight: bold; padding: 2%; margin-bottom: -1vh;">Our Services</h1>
+          </div>
+          <div class="row justify-content-center">
+            <div class="container-fluid w-50">
+              <h6 style="text-align: center;">You get the best experiences and the best services with us. We provide the
+                best services.</h6>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="container">
+            <div id="rowofcontainservices" class="row">
+              <div class="col-md-3 mb-4 ">
+                <div class="card alert-secondary">
+                  <div class="card-body">
+                    <i id="icon1" class="bi bi-award-fill just"></i>
+                    <h5 class="card-title font-weight-bold text-center ">Best Offers</h5>
+                    <h6 class="card-text text-center">We provide discounts you won't refuse.</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                <div class="card alert-secondary">
+                  <div class="card-body">
+                    <i id="icon1" class="bi bi-cash-coin"></i>
+                    <h5 class="card-title font-weight-bold text-center">Best Price</h5>
+                    <h6 class="card-text text-center">Great and fixed price for no post hassles and scams</h6>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4 ">
+                <div class="card alert-secondary">
+                  <div class="card-body ">
+                    <i id="icon1" class="bi bi-tools"></i>
+                    <h5 class="card-title font-weight-bold text-center">24/7 Service</h5>
+                    <h6 class="card-text text-center">We provide service all day</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <br>
+    </div>
+  </section>
+  <br>
+  <section>
+    <div>
+      <h1 style="text-align: center;">Find a Suitable Car <br> For you!</h1>
+      <br>
       <div class="row">
-        <img id="logo" src="images/laamborghini logo.png" alt="">
-        <img id="logo" src="images/rolls-royce-logo-black-and-white.png" alt="">
-        <img id="logo" src="images/bmwlogo.png" alt="">
-        <img id="logo" src="images/porsche-logo.png" alt="">
-        <img id="logo" src="images/R.png" alt="">
+        <div class="col">
+          <h1>Model</h1>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown button
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h1>hello</h1>
+        </div>
       </div>
+    </div>    
+
+
     </div>
-    <div class="col col-5">
-      <img id="lamb1" src="images/lamb1.png" alt="">
-    </div>
+  </section>
+
 
   </div>
+
 
 </body>
 
