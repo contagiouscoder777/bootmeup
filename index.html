@@ -7,13 +7,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="style.css">
   <title>CARTOPIA</title>
@@ -45,7 +45,7 @@
           <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0 d-flex">
+      <form class="form-inline my-2 my-lg-0 d-flex" style="gap: 3px;">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-sm btn-outline-success my-2 my-sm-0 text-white border-2" type="submit">Search</button>
       </form>
@@ -67,7 +67,7 @@
             <br>
           </h5>
         </div>
-        <div class="row">
+        <div id="brandrow" class="row">
           <img id="logo" src="images/laamborghini logo.png" alt="">
           <img id="logo" src="images/rolls-royce-logo-black-and-white.png" alt="">
           <img id="logo" src="images/bmwlogo.png" alt="">
@@ -75,8 +75,9 @@
           <img id="logo" src="images/R.png" alt="">
         </div>
         <br>
-        <div id="firstbuttons" class="row"><button type="button" class="btn btn-dark">BOOK A CAR</button>
-          <button type="button" class="btn btn-outline-dark">SEE ALL CARS</button>
+        <div id="firstbuttons" class="row">
+          <button type="button" class="btn w-25 btn-dark">BOOK A CAR</button>
+          <button type="button" class="btn w-25 btn-outline-dark">SEE ALL CARS</button>
         </div>
         <br>
 
@@ -94,10 +95,10 @@
         <div class="col-0">
           <br>
           <div class="row justify-content-center">
-            <h1 style="font-weight: bold; padding: 2%; margin-bottom: -1vh;">Our Services</h1>
+            <h1 style="font-weight: bold; padding: 2%; margin-bottom: -1vh; text-align: center;">Our Services</h1>
           </div>
           <div class="row justify-content-center">
-            <div class="container-fluid w-50">
+            <div class="container-fluid w-25">
               <h6 style="text-align: center;">You get the best experiences and the best services with us. We provide the
                 best services.</h6>
             </div>
@@ -143,32 +144,76 @@
   </section>
   <br>
   <section>
-    <div>
-      <h1 style="text-align: center;">Find a Suitable Car <br> For you!</h1>
+    <div class="container">
+      <h1 style="text-align: center; font-weight: 900;">Find a Suitable Car <br> For you!</h1>
       <br>
       <div class="row">
         <div class="col">
-          <h1>Model</h1>
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown button
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+          <h1>Model
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Ferrari
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Lamborghini</a></li>
+                <li><a class="dropdown-item" href="#">Porsche</a></li>
+                <li><a class="dropdown-item" href="#">BMW</a></li>
+              </ul>
             </div>
-          </div>
+          </h1>
         </div>
         <div class="col">
-          <h1>hello</h1>
+          <h1>Type
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Super Car
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item" href="#">SUV</a></li>
+                <li><a class="dropdown-item" href="#">Convertible</a></li>
+                <li><a class="dropdown-item" href="#">Sedan</a></li>
+              </ul>
+            </div>
+          </h1>
+        </div>
+        <div class="col">
+          <h1>Pricing
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton3"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                $300-$400
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                <li><a class="dropdown-item" href="#">$200-$300</a></li>
+                <li><a class="dropdown-item" href="#">$400-$500</a></li>
+                <li><a class="dropdown-item" href="#">$500+</a></li>
+              </ul>
+            </div>
+          </h1>
+        </div>
+        <div class="col">
+          <h1>Rating
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton4"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                4.0
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+                <li><a class="dropdown-item" href="#">3.0+</a></li>
+                <li><a class="dropdown-item" href="#">4.0+</a></li>
+                <li><a class="dropdown-item" href="#">4.5+</a></li>
+              </ul>
+            </div>
+          </h1>
         </div>
       </div>
-    </div>    
-
-
     </div>
   </section>
+  
+  
+
 
 
   </div>

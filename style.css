@@ -41,13 +41,20 @@ body {
   margin-left: -4vw;
 }
 
+#brandrow {
+  display: flex;
+}
+
 #logo {
   margin-top: 1%;
   padding-right: 4%;
-  height: 8vh;
+  max-width: 100px;
+  max-height: 50px;
+  object-fit: contain;
 }
 
 #firstbuttons {
+  margin-left: -1px;
   display: flex;
   gap: 2vw;
 }
@@ -57,6 +64,7 @@ body {
   color: aliceblue;
   margin-left: 0;
   margin-right: 0;
+  width: 100%;
 }
 
 #contain-services {
@@ -79,3 +87,7 @@ body {
 #icon1 {
   font-size: 2rem;
 }
+
+/* *{
+  outline: 1px solid red;
+ } */
