@@ -16,7 +16,7 @@ body {
 
 .navbar-brand {
   margin-right: 3rem;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 800;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 #h11 {
-  font-size: 5vw;
+  font-size: 6vw;
 }
 
 #underh11 {
@@ -88,15 +88,20 @@ body {
   font-size: 2rem;
 }
 
-#rentcard{
+#rentcard {
   max-width: 14rem;
   padding: 10px;
   display: contents;
 }
 
-#rentcars{
-  width: 100%;
-  object-fit: contain;
+#cartopialink {
+  color: inherit;
+}
+
+#cartopialink:hover {
+  text-decoration: none;
+  color: red;
+  transition: 1.5s;
 }
 
 /* *{
